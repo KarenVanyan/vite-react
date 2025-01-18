@@ -42,7 +42,7 @@ const SelectedContact = ({
   return (
     <>
       <Row>
-        <Col span={8}>
+        <Col span={12}>
           <Row gutter={16} style={{ padding: '40px 60px' }}>
             <Col span={12}>
               <div>
@@ -51,6 +51,7 @@ const SelectedContact = ({
                   alt="profile"
                   height="auto"
                   width="160px"
+                  style={{ borderRadius: '8px' }}
                 />
               </div>
             </Col>

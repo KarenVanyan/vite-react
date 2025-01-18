@@ -65,6 +65,7 @@ const ManageContacts = ({
 
   return (
     <Modal
+      destroyOnClose
       open={open}
       footer={null}
       onCancel={() => {

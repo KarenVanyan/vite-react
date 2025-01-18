@@ -1,0 +1,9 @@
+.homeWrapper {
+    height: calc(100vh - 100px);
+}
+
+.contactsSection {
+    height: 100vh;
+    margin: -8px;
+    background-color: lightgray;
+}

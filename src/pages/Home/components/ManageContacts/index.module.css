@@ -1,0 +1,23 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.submitWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitWrapper > button {
+    border-radius: 4px;
+    color: white;
+    border: 1px solid lightgray;
+    background-color: #0958d9;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.submitWrapper > button:hover {
+    background-color: #4096ff;
+}

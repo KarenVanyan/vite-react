@@ -1,0 +1,8 @@
+.marginTop {
+    margin-top: 20px;
+}
+.buttonsWrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+}
